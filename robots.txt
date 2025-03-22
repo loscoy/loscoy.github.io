@@ -1,4 +1,4 @@
-# robots.txt for loscoy.github.io (Hexo)
+# robots.txt for blog.loscoy.com (Hexo)
 User-agent: *
 Allow: /
 
@@ -29,8 +29,8 @@ Allow: /categories/*.html$
 Allow: /tags/*.html$
 
 # Sitemaps
-Sitemap: https://loscoy.github.io/sitemap.xml
-Sitemap: https://loscoy.github.io/baidusitemap.xml
+Sitemap: https://blog.loscoy.com/sitemap.xml
+Sitemap: https://blog.loscoy.com/baidusitemap.xml
 
 # Crawl-delay
 Crawl-delay: 5

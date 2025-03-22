@@ -124,6 +124,9 @@
       <!-- gitalk end -->
     
 
+    <!-- Code Copy CSS -->
+    <link rel="stylesheet" href="/css/code-copy.css">
+
   
 
   <!-- Custom Fonts -->
@@ -146,6 +149,9 @@
       Categories - Loscoy | Loscoy&#39;s Blog
     
   </title>
+
+  <!-- Code Copy JS -->
+  <script src="/js/code-copy.js"></script>
 <meta name="generator" content="Hexo 5.4.2"></head>
 
 
@@ -248,9 +254,9 @@
           
           
           <li>
-            <a href="/archive/">
+            <a href="/about/">
               
-              归档
+              关于
               
               
             </a>
@@ -259,9 +265,9 @@
           
           
           <li>
-            <a href="/about/">
+            <a href="/categories/">
               
-              关于
+              分类
               
               
             </a>
@@ -281,9 +287,9 @@
           
           
           <li>
-            <a href="/categories/">
+            <a href="/archive/">
               
-              分类
+              归档
               
               
             </a>
@@ -465,44 +471,21 @@
       <!-- 标签云 -->
       <div id='tag_cloud' class="tags">
         
-        <a href="#Technical Tutorials" title="Technical Tutorials" rel="1">Technical Tutorials</a>
-        
         <a href="#技术教程" title="技术教程" rel="1">技术教程</a>
         
-        <a href="#Application Development" title="Application Development" rel="1">Application Development</a>
+        <a href="#Technical Tutorials" title="Technical Tutorials" rel="1">Technical Tutorials</a>
         
         <a href="#应用开发" title="应用开发" rel="1">应用开发</a>
         
-        <a href="#Security Practices" title="Security Practices" rel="1">Security Practices</a>
+        <a href="#Application Development" title="Application Development" rel="1">Application Development</a>
         
         <a href="#安全实践" title="安全实践" rel="1">安全实践</a>
+        
+        <a href="#Security Practices" title="Security Practices" rel="1">Security Practices</a>
         
       </div>
 
       <!-- 标签列表 -->
-      
-      <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="Technical Tutorials">
-          <span class="tag-text">Technical Tutorials</span>
-        </span>
-        
-        <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-        <div class="post-preview">
-          <a href="/en/chat_e2ee/">
-            <h2 class="post-title">
-              Implementing End-to-End Encryption in Chat Applications
-              
-            </h2>
-            
-          </a>
-          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </div>
-        <hr>
-        
-      </div>
       
       <div class="one-tag-list">
         <span class="fa fa-tag listing-seperator" id="技术教程">
@@ -530,8 +513,8 @@
       </div>
       
       <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="Application Development">
-          <span class="tag-text">Application Development</span>
+        <span class="fa fa-tag listing-seperator" id="Technical Tutorials">
+          <span class="tag-text">Technical Tutorials</span>
         </span>
         
         <!-- <li class="listing-item">
@@ -578,8 +561,8 @@
       </div>
       
       <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="Security Practices">
-          <span class="tag-text">Security Practices</span>
+        <span class="fa fa-tag listing-seperator" id="Application Development">
+          <span class="tag-text">Application Development</span>
         </span>
         
         <!-- <li class="listing-item">
@@ -615,6 +598,29 @@
               为聊天应用添加端到端加密 (E2EE)
               
               -- cn
+              
+            </h2>
+            
+          </a>
+          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+        <hr>
+        
+      </div>
+      
+      <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="Security Practices">
+          <span class="tag-text">Security Practices</span>
+        </span>
+        
+        <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+        <div class="post-preview">
+          <a href="/en/chat_e2ee/">
+            <h2 class="post-title">
+              Implementing End-to-End Encryption in Chat Applications
               
             </h2>
             
@@ -1110,20 +1116,5 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
-        }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
-</script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-</body>
+	</body>
 </html>

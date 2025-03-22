@@ -1,0 +1,36 @@
+# robots.txt for blog.loscoy.com (Hexo)
+User-agent: *
+Allow: /
+
+# Disallow Hexo specific directories
+Disallow: /css/
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /lib/
+Disallow: /vendors/
+Disallow: /fancybox/
+Disallow: /search/
+Disallow: /admin/
+Disallow: /archives/
+Disallow: /categories/
+Disallow: /tags/
+
+# Disallow source files and temporary files
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.txt$
+Disallow: /*.md$
+Disallow: /*.yml$
+Disallow: /*.yaml$
+
+# Allow specific Hexo generated pages
+Allow: /archives/*.html$
+Allow: /categories/*.html$
+Allow: /tags/*.html$
+
+# Sitemaps
+Sitemap: https://blog.loscoy.com/sitemap.xml
+Sitemap: https://blog.loscoy.com/baidusitemap.xml
+
+# Crawl-delay
+Crawl-delay: 5

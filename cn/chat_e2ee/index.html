@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag (contains Google-Analytics、Baidu-Tongji)-->
+<head>
+  <!-- Google Analytics -->
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-ZWE3H5S9PJ"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-ZWE3H5S9PJ');
+    </script>
+  
+
+  <!-- Baidu Tongji -->
+  
+    <script type="text/javascript">
+      // Originial
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  
+
+  <!-- Baidu Push -->
+  
+    <script>
+      (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+      })();
+    </script>
+  
+
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <meta name="google-site-verification" content="lxDfCplOZbIzjhG34NuQBgu2gdyRlAtMB4utP5AgEBc"/>
+  <meta name="baidu-site-verification" content="codeva-aZ92l7FIQE" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="It&#39;s an IT blog..."/>
+  <meta name="keyword" content="loscoy, loscoy&#39;s blog, IT blog, technology blog, programming blog, software development, web development, mobile development, Flutter, E2EE, Dart, iOS, Android, 技术博客, 编程博客, 软件开发, 端对端加密"/>
+  <link rel="shortcut icon" href="/img/avatar/favicon.jpg"/>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
+
+  
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/css/bootstrap.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/css/beantech.min.css"/>
+
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/css/highlight.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/css/widget.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/css/rocket.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/css/signature.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/css/catalog.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/css/livemylife.css"/>
+
+    
+      <!-- wave start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/css/wave.css"/>
+      <!-- wave end -->
+    
+
+    
+      <!-- top start (article top hot config) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/css/top.css"/>
+      <!-- top end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/css/scroll.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+      <!-- viewer start (Picture preview) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/css/viewer.min.css"/>
+      <!-- viewer end -->
+    
+
+    
+      <!-- Search start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/css/search.css"/>
+      <!-- Search end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/css/themecolor.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+
+    
+      <!-- gitalk start -->
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/css/gitalk.css"/>
+      <!-- gitalk end -->
+    
+
+  
+
+  <!-- Custom Fonts -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <!-- Hux change font-awesome CDN to qiniu -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Hux Delete, sad but pending in China <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> <link
+  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/ css'> -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+
+  <!-- ga & ba script hoook -->
+  <link rel="canonical" href="http://blog.loscoy.com/cn/chat_e2ee/">
+  <title>
+    
+      为聊天应用添加端到端加密 (E2EE) - Loscoy | Loscoy&#39;s Blog
+    
+  </title>
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+
+<!-- hack iOS CSS :active style -->
+
+	<body ontouchstart="" class="body--light body--dark">
+
+
+		<!-- ThemeColor -->
+		
+		<!-- ThemeColor -->
+<style type="text/css">
+  .body--light {
+    --light-mode: none;
+    --dark-mode: block;
+  }
+  .body--dark {
+    --light-mode: block;
+    --dark-mode: none;
+  }
+  i.mdui-icon.material-icons.light-mode {
+    display: var(--light-mode);
+  }
+  i.mdui-icon.material-icons.dark-mode {
+    display: var(--dark-mode);
+  }
+</style>
+<div class="toggle" onclick="document.body.classList.toggle('body--dark')">
+  <i class="mdui-icon material-icons light-mode"></i>
+  <i class="mdui-icon material-icons dark-mode"></i>
+</div>
+<script>
+  //getCookieValue
+  function getCookieValue(a) {
+    var b = document.cookie.match('(^|[^;]+)\\s*' + a + '\\s*=\\s*([^;]+)');
+    return b
+      ? b.pop()
+      : '';
+  }
+  let themeMode = 'dark';
+  if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
+    let dbody = document.body.classList;
+    themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
+  }
+
+  //setCookieValue
+  var toggleBtn = document.querySelector(".toggle");
+  toggleBtn.addEventListener("click", function () {
+    var e = document.body.classList.contains("body--dark");
+    var cookieString = e
+      ? "dark"
+      : "light";
+    var exp = new Date();
+    exp.setTime(exp.getTime() + 3 * 24 * 60 * 60 * 1000); //3天过期
+    document.cookie = "sb-color-mode=" + cookieString + ";expires=" + exp.toGMTString() + ";path=/";
+  });
+</script>
+
+		
+
+		<!-- Gitter -->
+		
+		<!-- Gitter -->
+<!-- Docs:https://gitter.im/?utm_source=left-menu-logo -->
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'your-community/your-room'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+		
+
+		<!-- Navigation (contains search)-->
+		<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Loscoy&#39;s Blog</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Known Issue, found by Hux: <nav>'s height woule be hold on by its content. so, when navbar scale out, the <nav> will cover tags. also mask any touch event of tags, unfortunately. -->
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/">首页</a>
+          </li>
+
+          
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/categories/">
+              
+              分类
+              
+              
+            </a>
+          </li>
+          
+          
+
+          
+          <li>
+            <a class="popup-trigger">
+              <span class="search-icon"></span>搜索</a>
+          </li>
+          
+
+          <!-- LangSelect -->
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<!-- progress -->
+<div id="progress">
+  <div class="line" style="width: 0%;"></div>
+</div>
+
+<script>
+  // Drop Bootstarp low-performance Navbar Use customize navbar with high-quality material design animation in high-perf jank-free CSS3 implementation
+  var $body = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+
+  function handleMagic(e) {
+    if ($navbar.className.indexOf('in') > 0) {
+      // CLOSE
+      $navbar.className = " ";
+      // wait until animation end.
+      setTimeout(function() {
+        // prevent frequently toggle
+        if ($navbar.className.indexOf('in') < 0) {
+          $collapse.style.height = "0px"
+        }
+      }, 400)
+    } else {
+      // OPEN
+      $collapse.style.height = "auto"
+      $navbar.className += " in";
+    }
+  }
+</script>
+
+
+		<!-- Post Header (contains intro-header、signature、wordcount、busuanzi、waveoverlay) -->
+		<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+
+  <!-- CDN: jsdelivr start -->
+  <style type="text/css">
+    .body--light {
+      /* intro-header */
+      --intro-header-background-image-url-home: url('https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/img/header_img/newhome_bg.jpg');
+      --intro-header-background-image-url-post: url('https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io./header.jpg');
+      --intro-header-background-image-url-page: url('https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/./header.jpg');
+    }
+    .body--dark {
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/img/header_img/newhome_bg.jpg');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io./header.jpg');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/./header.jpg');
+    }
+    header.intro-header {
+       /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io./header.jpg'); */
+      
+    }
+
+    
+      #signature {/*signature*/
+        background-image: url('/img/signature/sig_loscoy.png');
+      }
+    
+  </style>
+  <!-- CDN: jsdelivr end -->
+
+
+
+
+
+<header class="intro-header">
+  <!-- Signature -->
+  <div id="signature">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          
+          <div class="post-heading">
+            <div class="tags">
+              
+              <a class="tag" href="/tags/#Flutter" title="Flutter">Flutter</a>
+              
+              <a class="tag" href="/tags/#E2EE" title="E2EE">E2EE</a>
+              
+              <a class="tag" href="/tags/#安全" title="安全">安全</a>
+              
+              <a class="tag" href="/tags/#加密" title="加密">加密</a>
+              
+              <a class="tag" href="/tags/#聊天应用" title="聊天应用">聊天应用</a>
+              
+              <a class="tag" href="/tags/#Signal协议" title="Signal协议">Signal协议</a>
+              
+            </div>
+            <h1>为聊天应用添加端到端加密 (E2EE)</h1>
+            <h2 class="subheading"></h2>
+            <span class="meta">
+              Posted by Loscoy on
+              2025-03-20
+            </span>
+
+
+            
+            <!-- WordCount start -->
+            <div class="blank_box"></div>
+            <span class="meta">
+              Estimated Reading Time <span class="post-count">12</span> Minutes
+            </span>
+            <div class="blank_box"></div>
+            <span class="meta">
+              Words <span class="post-count">2.8k</span> In Total
+            </span>
+            <div class="blank_box"></div>
+            <!-- WordCount end -->
+            
+            
+            <!-- 不蒜子统计 start -->
+            <span class="meta" id="busuanzi_container_page_pv">
+              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span> Times
+            </span>
+            <!-- 不蒜子统计 end -->
+            
+
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- waveoverlay start -->
+  <div class="preview-overlay">
+    <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+      </defs>
+      <g class="preview-parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+        <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
+        <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
+        <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
+      </g>
+    </svg>
+  </div>
+  <!-- waveoverlay end -->
+  
+
+</header>
+
+
+
+		<!-- Main Content (Post contains
+	Pager、
+	tip、
+	socialshare、
+	gitalk、gitment、disqus-comment、
+	Catalog、
+	Sidebar、
+	Featured-Tags、
+	Friends Blog、
+	anchorjs、
+	) -->
+		<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <p>你有没有用过 WhatsApp、Signal 或 Telegram 这样的即时通讯软件？它们提供的一项关键安全功能是<strong>端到端加密 (E2EE)</strong>。这确保了消息直接在发送者和接收者之间加密，使得服务器或任何第三方都无法访问消息内容。</p>
+<h2 id="理解端到端加密">理解端到端加密</h2>
+<p><strong>端到端加密 (End-to-End Encryption, E2EE)</strong> 是一种密码学方法，它保证只有通信的参与者才能解密消息。在 E2EE 系统中，消息在发送者的设备上加密，并且仅在接收者的设备上解密，任何中间服务器或第三方都无法访问明文内容。</p>
+<h2 id="端到端加密的应用范围">端到端加密的应用范围</h2>
+<p>E2EE 可以应用于各种形式的通信，包括：</p>
+<ul>
+<li>文本消息</li>
+<li>图片</li>
+<li>语音消息</li>
+<li>视频消息</li>
+</ul>
+<p>虽然根据数据格式的不同，具体的加密过程可能会有所不同，但其基本原理保持一致。</p>
+<h2 id="E2EE-的性能考量">E2EE 的性能考量</h2>
+<p>实现 E2EE 会由于加密和解密过程所需的时间而导致消息延迟略有增加。为了增强安全性，这种额外的开销通常是可以接受的。</p>
+<h2 id="使用-Signal-协议的端到端加密流程">使用 Signal 协议的端到端加密流程</h2>
+<p>本节概述了使用广泛认可的 <strong>Signal 协议</strong>实现 E2EE 的过程。</p>
+<p><strong>参与者：</strong></p>
+<ol>
+<li><strong>Alice：</strong> 消息发送者。</li>
+<li><strong>Bob：</strong> 消息接收者。</li>
+</ol>
+<p><strong>流程概览：</strong></p>
+<ol>
+<li><strong>密钥生成：</strong> Alice 和 Bob 各自独立地生成自己的身份密钥、预共享密钥和签名预共享密钥。</li>
+<li><strong>密钥交换：</strong> Alice 获取 Bob 的身份密钥和预共享密钥，以及一个他的一次性预共享密钥。。</li>
+<li><strong>会话建立：</strong> Alice 使用 Bob 的公钥信息与他建立安全会话。</li>
+<li><strong>消息加密：</strong> Alice 使用与 Bob 建立的会话加密她的消息。</li>
+<li><strong>消息传输：</strong> Alice 将加密的消息发送给 Bob。</li>
+<li><strong>消息解密：</strong> Bob 使用他的私钥信息解密收到的消息。</li>
+</ol>
+<h2 id="依赖">依赖</h2>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">dependencies:</span></span><br><span class="line">  <span class="attr">libsignal_protocol_dart:</span> <span class="string">^0.7.1</span></span><br><span class="line">  <span class="attr">hive_flutter:</span> <span class="string">^1.1.0</span></span><br><span class="line">  <span class="attr">get_it:</span> <span class="string">^8.0.2</span></span><br></pre></td></tr></table></figure>
+<h2 id="详细步骤和代码示例-Dart-实现">详细步骤和代码示例 (Dart 实现)</h2>
+<p>此实现使用 <code>libsignal_protocol_dart</code> 库和 <code>hive</code> 进行本地密钥存储。</p>
+<h3 id="1-密钥生成">1. 密钥生成</h3>
+<p>Alice 和 Bob 都需要生成以下密钥：</p>
+<ul>
+<li><strong>身份密钥 (Identity Key)：</strong> 通常在用户注册时生成，并且在整个账户生命周期内保持不变，用于验证用户身份和签名其他密钥。</li>
+<li><strong>签名预密钥 (Signed Pre-key)：</strong> 由身份密钥签名，以证明其合法性，用于建立初始加密会话，需要定期更新。</li>
+<li><strong>预密钥 (Pre-key)：</strong> 一次性使用的密钥对，使用一次后即丢弃，每个会话使用一个唯一的预密钥，用完即销毁，确保完美前向保密性，服务器通常会存储多个预密钥。服务器储存的预密钥不足时，客户端需要再次生成。</li>
+</ul>
+<h3 id="2-实现本地密钥存储库-使用-Hive">2. 实现本地密钥存储库 (使用 Hive)</h3>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">&#x27;package:hive/hive.dart&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;package:libsignal_protocol_dart/libsignal_protocol_dart.dart&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;package:get_it/get_it.dart&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">IHiveService</span> </span>&#123;</span><br><span class="line">  Future&lt;Box&gt; openBox(<span class="built_in">String</span> boxName);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">HiveSignalProtocolStore</span> <span class="keyword">implements</span> <span class="title">SignalProtocolStore</span> </span>&#123;</span><br><span class="line">  <span class="keyword">final</span> Box&lt;<span class="built_in">dynamic</span>&gt; box;</span><br><span class="line">  <span class="keyword">final</span> <span class="built_in">String</span> userId</span><br><span class="line"></span><br><span class="line">  HiveSignalProtocolStore(<span class="keyword">this</span>.box, <span class="keyword">this</span>.userId);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 初始化方法</span></span><br><span class="line">  Future&lt;<span class="keyword">void</span>&gt; initialize(</span><br><span class="line">      IdentityKeyPair identityKeyPair, <span class="built_in">int</span> registrationId) <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">await</span> box.put(<span class="string">&#x27;identityKeyPair&#x27;</span>, identityKeyPair.serialize());</span><br><span class="line">    <span class="keyword">await</span> box.put(<span class="string">&#x27;registrationId&#x27;</span>, registrationId);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Future&lt;PreKeyRecord&gt; loadPreKey(<span class="built_in">int</span> preKeyId) <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">final</span> data = box.<span class="keyword">get</span>(<span class="string">&#x27;preKey_<span class="subst">$preKeyId</span>&#x27;</span>);</span><br><span class="line">    <span class="keyword">return</span> data != <span class="keyword">null</span> ? PreKeyRecord.fromBuffer(data) : <span class="keyword">null</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Future&lt;<span class="keyword">void</span>&gt; storePreKey(<span class="built_in">int</span> preKeyId, PreKeyRecord preKeyRecord) <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">await</span> box.put(<span class="string">&#x27;preKey_<span class="subst">$preKeyId</span>&#x27;</span>, preKeyRecord.serialize());</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Future&lt;<span class="keyword">void</span>&gt; removePreKey(<span class="built_in">int</span> preKeyId) <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">await</span> box.delete(<span class="string">&#x27;preKey_<span class="subst">$preKeyId</span>&#x27;</span>);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Future&lt;<span class="keyword">void</span>&gt; storeSignedPreKey(</span><br><span class="line">    <span class="built_in">int</span> signedPreKeyId,</span><br><span class="line">    SignedPreKeyRecord record,</span><br><span class="line">  ) <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">await</span> box.put(<span class="string">&#x27;signedPreKey_<span class="subst">$signedPreKeyId</span>&#x27;</span>, record.serialize());</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Future&lt;SignedPreKeyRecord&gt; loadSignedPreKey(<span class="built_in">int</span> signedPreKeyId) <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">final</span> data = box.<span class="keyword">get</span>(<span class="string">&#x27;signedPreKey_<span class="subst">$signedPreKeyId</span>&#x27;</span>);</span><br><span class="line">    <span class="keyword">return</span> data != <span class="keyword">null</span> ? SignedPreKeyRecord.fromBuffer(data) : <span class="keyword">null</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Future&lt;<span class="keyword">void</span>&gt; removeSignedPreKey(<span class="built_in">int</span> signedPreKeyId) <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">await</span> box.delete(<span class="string">&#x27;signedPreKey_<span class="subst">$signedPreKeyId</span>&#x27;</span>);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Future&lt;SessionRecord&gt; loadSession(SignalProtocolAddress address) <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">final</span> data = box.<span class="keyword">get</span>(<span class="string">&#x27;session_<span class="subst">$&#123;address.getName()&#125;</span>_<span class="subst">$&#123;address.getDeviceId()&#125;</span>&#x27;</span>);</span><br><span class="line">    <span class="keyword">return</span> data != <span class="keyword">null</span> ? SessionRecord.fromBuffer(data) : SessionRecord();</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Future&lt;<span class="built_in">List</span>&lt;<span class="built_in">int</span>&gt;&gt; getSubDeviceSessions(<span class="built_in">String</span> name) <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">final</span> keys = box.keys.whereType&lt;<span class="built_in">String</span>&gt;().where((key) =&gt; key.startsWith(<span class="string">&#x27;session_<span class="subst">$name</span>&#x27;</span>)).toList();</span><br><span class="line">    <span class="keyword">return</span> keys.map((key) =&gt; <span class="built_in">int</span>.parse(key.split(<span class="string">&#x27;_&#x27;</span>).last)).toList();</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Future&lt;<span class="keyword">void</span>&gt; storeSession(SignalProtocolAddress address, SessionRecord record) <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">await</span> box.put(<span class="string">&#x27;session_<span class="subst">$&#123;address.getName()&#125;</span>_<span class="subst">$&#123;address.getDeviceId()&#125;</span>&#x27;</span>, record.serialize());</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Future&lt;<span class="keyword">void</span>&gt; deleteSession(SignalProtocolAddress address) <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">await</span> box.delete(<span class="string">&#x27;session_<span class="subst">$&#123;address.getName()&#125;</span>_<span class="subst">$&#123;address.getDeviceId()&#125;</span>&#x27;</span>);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Future&lt;<span class="keyword">void</span>&gt; deleteAllSessions(<span class="built_in">String</span> name) <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">final</span> keysToRemove = box.keys.whereType&lt;<span class="built_in">String</span>&gt;().where((key) =&gt; key.startsWith(<span class="string">&#x27;session_<span class="subst">$name</span>&#x27;</span>)).toList();</span><br><span class="line">    <span class="keyword">await</span> box.deleteAll(keysToRemove);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Future&lt;IdentityKeyPair&gt; getIdentityKeyPair() <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">final</span> data = box.<span class="keyword">get</span>(<span class="string">&#x27;identityKeyPair&#x27;</span>);</span><br><span class="line">    <span class="keyword">return</span> data != <span class="keyword">null</span> ? IdentityKeyPair.fromBuffer(data) : <span class="keyword">null</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Future&lt;<span class="built_in">int</span>&gt; getLocalRegistrationId() <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> box.<span class="keyword">get</span>(<span class="string">&#x27;registrationId&#x27;</span>) <span class="keyword">as</span> <span class="built_in">int?</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Future&lt;<span class="built_in">int</span>&gt; getPreKeyCount() <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> box.keys.whereType&lt;<span class="built_in">String</span>&gt;().where((key) =&gt; key.startsWith(<span class="string">&#x27;preKey_&#x27;</span>)).length;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Future&lt;<span class="built_in">int</span>&gt; getSignedPreKeyCount() <span class="keyword">async</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> box.keys.whereType&lt;<span class="built_in">String</span>&gt;().where((key) =&gt; key.startsWith(<span class="string">&#x27;signedPreKey_&#x27;</span>)).length;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 获取 Hive 存储的函数</span></span><br><span class="line">Future&lt;HiveSignalProtocolStore&gt; _getStore(<span class="built_in">String</span> userId) <span class="keyword">async</span> &#123;</span><br><span class="line">  <span class="keyword">final</span> store = _stores[userId];</span><br><span class="line">  <span class="keyword">if</span> (store != <span class="keyword">null</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> store;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">final</span> box = <span class="keyword">await</span> getIt&lt;IHiveService&gt;().openBox(<span class="string">&#x27;signal_store_<span class="subst">$userId</span>&#x27;</span>);</span><br><span class="line">  <span class="keyword">final</span> newStore = HiveSignalProtocolStore(box, userId);</span><br><span class="line">  _stores[userId] = newStore;</span><br><span class="line">  <span class="keyword">return</span> newStore;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="3-生成密钥包（alice和Bob各自生成）">3. 生成密钥包（alice和Bob各自生成）</h3>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">&#x27;dart:convert&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;dart:typed_data&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;package:libsignal_protocol_dart/libsignal_protocol_dart.dart&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 将密钥上传到服务器的函数</span></span><br><span class="line">Future&lt;<span class="keyword">void</span>&gt; uploadKeysToServer(IdentityKeyPair identityKeyPair, SignedPreKeyRecord signedPreKey, <span class="built_in">List</span>&lt;PreKeyRecord&gt; preKeys, <span class="built_in">int</span> registrationId) <span class="keyword">async</span> &#123; ... &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">final</span> selfId = <span class="string">&#x27;userId&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">final</span> store = _getStore(selfId);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生成新的身份密钥对和注册 ID</span></span><br><span class="line"><span class="keyword">final</span> identityKeyPair = generateIdentityKeyPair();</span><br><span class="line"><span class="keyword">final</span> registrationId = generateRegistrationId(<span class="keyword">false</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用身份密钥对和注册 ID 初始化存储</span></span><br><span class="line"><span class="keyword">await</span> store.initialize(identityKeyPair, registrationId);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生成预共享密钥</span></span><br><span class="line"><span class="comment">// 此处仅为示例，实际应用中需要根据实际情况生成</span></span><br><span class="line"><span class="keyword">final</span> preKeys = generatePreKeys(<span class="number">0</span>, <span class="number">100</span>);</span><br><span class="line"><span class="comment">// 存储预共享密钥</span></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">final</span> preKey <span class="keyword">in</span> preKeys) &#123;</span><br><span class="line">  <span class="keyword">await</span> store.storePreKey(preKey.id, preKey);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生成签名预共享密钥</span></span><br><span class="line"><span class="keyword">final</span> signedPreKey = generateSignedPreKey(identityKeyPair, <span class="number">0</span>);</span><br><span class="line"><span class="comment">// 存储签名预共享密钥</span></span><br><span class="line"><span class="keyword">await</span> store.storeSignedPreKey(signedPreKey.id, signedPreKey);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 将密钥上传到服务器</span></span><br><span class="line"><span class="keyword">await</span> uploadKeysToServer(identityKeyPair, signedPreKey, preKeys, registrationId);</span><br></pre></td></tr></table></figure>
+<h3 id="4-建立会话">4. 建立会话</h3>
+<p>Alice 使用从服务器获得的 Bob 的身份密钥和预密钥来建立与 Bob 的会话。如果服务器中Bob的预密钥不足，服务器将不会返回PreKey，Alice需要计算以下 Diffie-Hellman (DH) 值（参考：<a target="_blank" rel="noopener" href="https://signal.org/docs/specifications/x3dh/#sending-the-initial-message">Signal 协议文档 - 发送初始消息</a>）：</p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">DH1</span> = DH(IK_A, SPK_B)</span><br><span class="line"><span class="attr">DH2</span> = DH(EK_A, IK_B)</span><br><span class="line"><span class="attr">DH3</span> = DH(EK_A, SPK_B)</span><br></pre></td></tr></table></figure>
+<p>然后，使用密钥派生函数 (KDF) 将这些 DH 值组合起来，生成共享密钥 (SK)：</p>
+<figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SK = KDF(<span class="name">DH1</span> || DH2 || DH3)</span><br></pre></td></tr></table></figure>
+<p><strong>代码示例 (Alice 端)：</strong></p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">&#x27;dart:convert&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;package:libsignal_protocol_dart/libsignal_protocol_dart.dart&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 从服务器获取 Bob 的密钥包的函数</span></span><br><span class="line">Future&lt;<span class="built_in">Map</span>&lt;<span class="built_in">String</span>, <span class="built_in">String</span>&gt;&gt; getKeyBundleFromServer(<span class="built_in">String</span> bobId) <span class="keyword">async</span> &#123; ... &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="built_in">String</span> remoteUserId = <span class="string">&#x27;bob_user_id&#x27;</span>; <span class="comment">// 替换为 Bob 的实际用户 ID</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">final</span> selfId = <span class="string">&#x27;userId&#x27;</span>;</span><br><span class="line"><span class="keyword">final</span> aliceStore = _getStore(selfId);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 从服务器获取 Bob 的身份密钥和预共享密钥包</span></span><br><span class="line"><span class="comment">// final bundleData = await getKeyBundleFromServer(remoteUserId);</span></span><br><span class="line"><span class="keyword">final</span> bundleData = &#123; <span class="comment">// 用于演示的模拟数据</span></span><br><span class="line">  <span class="string">&#x27;registrationId&#x27;</span>: <span class="string">&#x27;12345&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;preKey&#x27;</span>: base64Encode(PreKeyRecord(<span class="number">0</span>, KeyPair.generate()).serialize()),</span><br><span class="line">  <span class="string">&#x27;signedPreKey&#x27;</span>: base64Encode(SignedPreKeyRecord(<span class="number">0</span>, KeyPair.generate(), Uint8List.fromList(utf8.encode(<span class="string">&#x27;signature&#x27;</span>))).serialize()),</span><br><span class="line">  <span class="string">&#x27;identityKey&#x27;</span>: base64Encode(KeyPair.generate().publicKey.serialize()),</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">final</span> remoteAddress = SignalProtocolAddress(remoteUserId, <span class="number">1</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Bob 的预共享密钥</span></span><br><span class="line"><span class="keyword">final</span> preKey = bundleData[<span class="string">&#x27;preKey&#x27;</span>]!;</span><br><span class="line"><span class="keyword">final</span> preKeyRecord = PreKeyRecord.fromBuffer(base64Decode(preKey));</span><br><span class="line"><span class="keyword">final</span> preKeyId = preKeyRecord.preKeyId;</span><br><span class="line"><span class="keyword">final</span> preKeyPublic = preKeyRecord.getKeyPair().publicKey;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Bob 的签名预共享密钥</span></span><br><span class="line"><span class="keyword">final</span> signedPreKey = SignedPreKeyRecord.fromSerialized(</span><br><span class="line">  base64Decode(bundleData[<span class="string">&#x27;signedPreKey&#x27;</span>]!),</span><br><span class="line">);</span><br><span class="line"><span class="keyword">final</span> signedPreKeyId = signedPreKey.id;</span><br><span class="line"><span class="keyword">final</span> signedPreKeyPublic = signedPreKey.getKeyPair().publicKey;</span><br><span class="line"><span class="keyword">final</span> signedPreKeySignature = signedPreKey.signature;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Bob 的身份密钥</span></span><br><span class="line"><span class="keyword">final</span> identityKeyPublic =</span><br><span class="line">    IdentityKey.fromBytes(base64Decode(bundleData[<span class="string">&#x27;identityKey&#x27;</span>]!), <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 构建 PreKeyBundle</span></span><br><span class="line"><span class="keyword">final</span> bundle = PreKeyBundle(</span><br><span class="line">  <span class="built_in">int</span>.parse(bundleData[<span class="string">&#x27;registrationId&#x27;</span>]!),</span><br><span class="line">  <span class="number">1</span>,</span><br><span class="line">  preKeyId,</span><br><span class="line">  preKeyPublic,</span><br><span class="line">  signedPreKeyId,</span><br><span class="line">  signedPreKeyPublic,</span><br><span class="line">  signedPreKeySignature,</span><br><span class="line">  identityKeyPublic,</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">final</span> sessionBuilder = SessionBuilder.fromSignalStore(</span><br><span class="line">  aliceStore,</span><br><span class="line">  remoteAddress,</span><br><span class="line">);</span><br><span class="line"><span class="comment">// 使用 PreKeyBundle 建立会话</span></span><br><span class="line"><span class="comment">// 此会话将存储在 Alice 的本地数据库中</span></span><br><span class="line"><span class="keyword">await</span> sessionBuilder.processPreKeyBundle(bundle);</span><br></pre></td></tr></table></figure>
+<h3 id="5-消息加密">5. 消息加密</h3>
+<p>Alice 使用与 Bob 建立的会话来加密消息。</p>
+<p><strong>代码示例 (Alice 端)：</strong></p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">&#x27;dart:convert&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;dart:typed_data&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;package:libsignal_protocol_dart/libsignal_protocol_dart.dart&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="built_in">String</span> remoteUserId = <span class="string">&#x27;bob_user_id&#x27;</span>; <span class="comment">// 替换为 Bob 的实际用户 ID</span></span><br><span class="line"><span class="keyword">const</span> <span class="built_in">String</span> messageToSend = <span class="string">&#x27;你好 Bob！&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">final</span> selfId = <span class="string">&#x27;userId&#x27;</span>;</span><br><span class="line"><span class="keyword">final</span> aliceStore = _getStore(selfId);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 获取远程地址</span></span><br><span class="line"><span class="keyword">final</span> remoteAddress = SignalProtocolAddress(remoteUserId, <span class="number">1</span>);</span><br><span class="line"><span class="comment">// 获取会话加密器</span></span><br><span class="line"><span class="keyword">final</span> sessionCipher = SessionCipher.fromStore(</span><br><span class="line">  aliceStore,</span><br><span class="line">  remoteAddress,</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 加密消息</span></span><br><span class="line"><span class="keyword">final</span> ciphertext = <span class="keyword">await</span> sessionCipher.encrypt(</span><br><span class="line">  Uint8List.fromList(utf8.encode(messageToSend)),</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 加密后的消息 (base64 编码，方便传输)</span></span><br><span class="line"><span class="keyword">final</span> encryptedMessage = base64Encode(ciphertext.serialize());</span><br><span class="line"></span><br><span class="line"><span class="comment">// 消息类型 (SignalMessage 或 PreKeySignalMessage)</span></span><br><span class="line"><span class="keyword">final</span> type = ciphertext.getType();</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 发送消息</span></span><br><span class="line"><span class="keyword">await</span> sendMessage(encryptedMessage, type);</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;加密后的消息: <span class="subst">$encryptedMessage</span>&#x27;</span>);</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;消息类型: <span class="subst">$type</span>&#x27;</span>);</span><br></pre></td></tr></table></figure>
+<h3 id="6-消息解密">6. 消息解密</h3>
+<p>Bob 使用他的私钥信息来解密从 Alice 收到的消息。</p>
+<p><strong>代码示例 (Bob 端)：</strong></p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">&#x27;dart:convert&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;dart:typed_data&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;package:libsignal_protocol_dart/libsignal_protocol_dart.dart&#x27;</span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="built_in">String</span> aliceUserId = <span class="string">&#x27;alice_user_id&#x27;</span>; <span class="comment">// 替换为 Alice 的实际用户 ID</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">final</span> selfId = <span class="string">&#x27;userId&#x27;</span>;</span><br><span class="line"><span class="keyword">final</span> bobStore = _getStore(selfId);</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ReceivedMessage</span> </span>&#123;</span><br><span class="line">  <span class="keyword">final</span> <span class="built_in">String</span> encryptedMessage;</span><br><span class="line">  <span class="keyword">final</span> <span class="built_in">int</span> type;</span><br><span class="line"></span><br><span class="line">  ReceivedMessage(<span class="keyword">this</span>.encryptedMessage, <span class="keyword">this</span>.type);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 模拟接收来自 Alice 的消息</span></span><br><span class="line"><span class="keyword">final</span> message = ReceivedMessage(</span><br><span class="line">  <span class="string">&#x27;AgAAAAEAAAAAAAD...&#x27;</span>, <span class="comment">// 替换为实际的加密消息</span></span><br><span class="line">  <span class="number">1</span>, <span class="comment">// 替换为实际的消息类型 (PreKeySignalMessage 或 SignalMessage)</span></span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">final</span> encryptedMessage = message.encryptedMessage;</span><br><span class="line"><span class="keyword">final</span> type = message.type;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 获取远程地址</span></span><br><span class="line"><span class="keyword">final</span> remoteAddress = SignalProtocolAddress(aliceUserId, <span class="number">1</span>);</span><br><span class="line"><span class="comment">// 获取会话加密器</span></span><br><span class="line"><span class="keyword">final</span> sessionCipher = SessionCipher.fromStore(</span><br><span class="line">  bobStore,</span><br><span class="line">  remoteAddress,</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 解密消息</span></span><br><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">  <span class="keyword">if</span> (type == <span class="number">3</span>) &#123; <span class="comment">// PreKeySignalMessage</span></span><br><span class="line">    <span class="keyword">final</span> preKeySignalMessage = PreKeySignalMessage.fromBuffer(base64Decode(encryptedMessage));</span><br><span class="line">    <span class="keyword">final</span> decryptedMessage = <span class="keyword">await</span> sessionCipher.decrypt(preKeySignalMessage);</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;解密后的消息 (PreKey): <span class="subst">$&#123;utf8.decode(decryptedMessage)&#125;</span>&quot;</span>);</span><br><span class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (type == <span class="number">2</span>) &#123; <span class="comment">// SignalMessage</span></span><br><span class="line">    <span class="keyword">final</span> signalMessage = SignalMessage.fromSerialized(base64Decode(encryptedMessage));</span><br><span class="line">    <span class="keyword">final</span> decryptedMessage = <span class="keyword">await</span> sessionCipher.decryptFromSignal(signalMessage);</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;解密后的消息 (Signal): <span class="subst">$&#123;utf8.decode(decryptedMessage)&#125;</span>&quot;</span>);</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;未知消息类型: <span class="subst">$type</span>&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;解密错误: <span class="subst">$e</span>&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="前向保密">前向保密</h3>
+<p>Signal 协议通过使用<strong>一次性预共享密钥</strong>来实现前向保密。每次 Alice 与 Bob 建立会话时，都会使用 Bob 的一个新的未使用的一次性预共享密钥。这意味着，即使攻击者获得了 Bob 的长期私钥，他们也无法解密之前使用过的一次性预共享密钥加密的消息。</p>
+<h3 id="双棘轮算法">双棘轮算法</h3>
+<p>双棘轮算法，用于两个参与者之间基于共享秘密密钥交换加密消息。双方每次交换消息时都会生成新的密钥，以确保早期密钥不能从后期密钥推导出来。双方在消息中发送 Diffie-Hellman 公钥，Diffie-Hellman 计算结果也会混合到派生密钥中，以确保后期密钥不能从早期密钥推导出来。这些特性为早期或后期加密消息提供了一定的保护，以防一方密钥泄露。这些属性可在一方密钥泄露的情况下为较早或较晚的加密消息提供一定的保护。</p>
+<h2 id="总结">总结</h2>
+<p>Signal 协议是一种先进的端到端加密解决方案，它通过巧妙地结合多种密钥类型（身份密钥、预共享密钥、签名预共享密钥和一次性预共享密钥）来确保通信安全。在 Dart 和 Flutter 应用中，<code>libsignal_protocol_dart</code> 库提供了实现此协议的完整工具集。本文中的代码示例展示了基本实现，但在实际应用中，您需要根据自身的用户认证系统、服务器架构和安全策略进行适当集成。正确实施后，您的聊天应用将能够提供与主流安全通讯应用相当的加密保护水平。</p>
+<h2 id="参考">参考</h2>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://signal.org/docs/">Signal 协议文档</a></li>
+<li><a target="_blank" rel="noopener" href="https://pub.dev/packages/libsignal_protocol_dart">libsignal_protocol_dart 包</a></li>
+<li><a target="_blank" rel="noopener" href="https://pub.dev/packages/hive">hive 包</a></li>
+</ul>
+
+
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
+          
+          
+          <li class="next">
+            <a href="/en/chat_e2ee/" data-toggle="tooltip" data-placement="top" title="Implementing End-to-End Encryption in Chat Applications">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=为聊天应用添加端到端加密 (E2EE)&body=Hi,I found this website and thought you might like it http://blog.loscoy.com/cn/chat_e2ee/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+  <!-- gitalk start -->
+  <!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
+
+  <div id="gitalk-container"></div>
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/js/comment/gitalk.js"></script>
+  
+
+  <script>
+    var gitalk = new Gitalk({
+      clientID: '',
+      clientSecret: '',
+      repo: '',
+      owner: '',
+      admin: '',
+      id: 'Thu Mar 20 2025 23:40:29 GMT+0800', // Ensure uniqueness and length less than 50
+      distractionFreeMode: false, // Facebook-like distraction free mode
+      perPage: 10,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      language: 'en',
+      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+    });
+    gitalk.render('gitalk-container');
+
+    var gtFolded = () => {
+      setTimeout(function () {
+        let markdownBody = document.getElementsByClassName("markdown-body");
+        let list = Array.from(markdownBody);
+        list.forEach(item => {
+          if (item.clientHeight > 250) {
+            item.classList.add('gt-comment-body-folded');
+            item.style.maxHeight = '250px';
+            item.title = 'Click to Expand';
+            item.onclick = function () {
+              item.classList.remove('gt-comment-body-folded');
+              item.style.maxHeight = '';
+              item.title = '';
+              item.onclick = null;
+            };
+          }
+        })
+      }, 800);
+    }
+  </script>
+
+  <!-- gitalk end -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E7%90%86%E8%A7%A3%E7%AB%AF%E5%88%B0%E7%AB%AF%E5%8A%A0%E5%AF%86"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">理解端到端加密</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E7%AB%AF%E5%88%B0%E7%AB%AF%E5%8A%A0%E5%AF%86%E7%9A%84%E5%BA%94%E7%94%A8%E8%8C%83%E5%9B%B4"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">端到端加密的应用范围</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#E2EE-%E7%9A%84%E6%80%A7%E8%83%BD%E8%80%83%E9%87%8F"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">E2EE 的性能考量</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E4%BD%BF%E7%94%A8-Signal-%E5%8D%8F%E8%AE%AE%E7%9A%84%E7%AB%AF%E5%88%B0%E7%AB%AF%E5%8A%A0%E5%AF%86%E6%B5%81%E7%A8%8B"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">使用 Signal 协议的端到端加密流程</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E4%BE%9D%E8%B5%96"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">依赖</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E8%AF%A6%E7%BB%86%E6%AD%A5%E9%AA%A4%E5%92%8C%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B-Dart-%E5%AE%9E%E7%8E%B0"><span class="toc-nav-number">6.</span> <span class="toc-nav-text">详细步骤和代码示例 (Dart 实现)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-%E5%AF%86%E9%92%A5%E7%94%9F%E6%88%90"><span class="toc-nav-number">6.1.</span> <span class="toc-nav-text">1. 密钥生成</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#2-%E5%AE%9E%E7%8E%B0%E6%9C%AC%E5%9C%B0%E5%AF%86%E9%92%A5%E5%AD%98%E5%82%A8%E5%BA%93-%E4%BD%BF%E7%94%A8-Hive"><span class="toc-nav-number">6.2.</span> <span class="toc-nav-text">2. 实现本地密钥存储库 (使用 Hive)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-%E7%94%9F%E6%88%90%E5%AF%86%E9%92%A5%E5%8C%85%EF%BC%88alice%E5%92%8CBob%E5%90%84%E8%87%AA%E7%94%9F%E6%88%90%EF%BC%89"><span class="toc-nav-number">6.3.</span> <span class="toc-nav-text">3. 生成密钥包（alice和Bob各自生成）</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#4-%E5%BB%BA%E7%AB%8B%E4%BC%9A%E8%AF%9D"><span class="toc-nav-number">6.4.</span> <span class="toc-nav-text">4. 建立会话</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#5-%E6%B6%88%E6%81%AF%E5%8A%A0%E5%AF%86"><span class="toc-nav-number">6.5.</span> <span class="toc-nav-text">5. 消息加密</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#6-%E6%B6%88%E6%81%AF%E8%A7%A3%E5%AF%86"><span class="toc-nav-number">6.6.</span> <span class="toc-nav-text">6. 消息解密</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%89%8D%E5%90%91%E4%BF%9D%E5%AF%86"><span class="toc-nav-number">6.7.</span> <span class="toc-nav-text">前向保密</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%8F%8C%E6%A3%98%E8%BD%AE%E7%AE%97%E6%B3%95"><span class="toc-nav-number">6.8.</span> <span class="toc-nav-text">双棘轮算法</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-nav-number">7.</span> <span class="toc-nav-text">总结</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E5%8F%82%E8%80%83"><span class="toc-nav-number">8.</span> <span class="toc-nav-text">参考</span></a></li></ol>
+        
+        </div>
+      </aside>
+    
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+        <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#Flutter" title="Flutter">Flutter</a>
+            
+            <a class="tag" href="/tags/#E2EE" title="E2EE">E2EE</a>
+            
+            <a class="tag" href="/tags/#安全" title="安全">安全</a>
+            
+            <a class="tag" href="/tags/#加密" title="加密">加密</a>
+            
+            <a class="tag" href="/tags/#聊天应用" title="聊天应用">聊天应用</a>
+            
+            <a class="tag" href="/tags/#Signal协议" title="Signal协议">Signal协议</a>
+            
+          </div>
+        </section>
+        
+
+        <!-- Friends Blog -->
+        
+        <hr>
+        <h5>链友</h5>
+        <ul class="list-inline">
+
+          
+          <li>
+            <a href="https://hexo.io/" target="_blank">Hexo</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
+
+
+		<!-- Footer (contains ThemeColor、viewer) -->
+		<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy;
+          Loscoy
+          2025
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a id="rocket" href="#top" class=""></a>
+
+
+  <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/js/bootstrap.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/js/hux-blog.min.js"></script>
+
+  <!-- catalog -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/js/catalog.js"></script>
+
+  <!-- totop(rocket) -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/js/totop.js"></script>
+
+  
+    <!-- Busuanzi JavaScript -->
+    <script async="async" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <!-- Scroll start -->
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/js/scroll.js"></script>
+    <!-- Scroll end -->
+  
+
+  
+    <!-- LangSelect start -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/js/langselect.js"></script>
+    <!-- LangSelect end -->
+  
+
+  
+
+  
+
+  
+
+
+
+
+  <!-- CDN: jsdelivr start -->
+  <script async="async" type="text/javascript">
+    let imgsUrl = document.getElementsByTagName("img");
+    let imgUrl = Array.from(imgsUrl);
+
+    let jsdelivr = "https://cdn.jsdelivr.net/gh/";
+    let gh = "loscoy";
+    let ghPages = gh + ".github.io";
+    let pagePath = "cn/chat_e2ee/";
+    let jsdelivrurl;
+    if (pagePath.indexOf("index.html") != -1) {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages;
+    } else {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages + "/" + pagePath;
+    }
+    imgUrl.forEach(item => {
+      let oldUrl = item.getAttribute("src");
+      let newUrl = oldUrl.replace(oldUrl, jsdelivrurl + oldUrl).replace("..", "");
+      item.setAttribute("src", newUrl);
+    });
+  </script>
+  <!-- CDN: jsdelivr end -->
+
+
+
+  <!-- viewer start -->
+  <!-- viewer start (Picture preview) -->
+  
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/js/viewer/viewer.min.js"></script>
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/js/viewer/pic-viewer.js"></script>
+  
+
+  <!-- viewer end -->
+
+
+<script>
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function (e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  }
+
+  // fastClick.js
+  async ("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
+    var $nav = document.querySelector("nav");
+    if ($nav)
+      FastClick.attach($nav);
+    }
+  )
+</script>
+
+<!-- Because of the native support for backtick-style fenced code blocks right within the Markdown is landed in Github Pages, From V1.6, There is no need for Highlight.js, so Huxblog drops it officially. -
+https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0 - https://help.github.com/articles/creating-and-highlighting-code-blocks/ -->
+<!-- <script> async ("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function () { hljs.initHighlightingOnLoad(); }) </script> <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
+
+<!-- jquery.tagcloud.js -->
+<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("http://blog.loscoy.com/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
+start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
+
+
+		<!-- Search -->
+		
+		<div class="popup search-popup local-search-popup">
+  <span class="popup-btn-close">
+    ESC
+  </span>
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-md-9 col-md-offset-1"> -->
+      <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1 local-search-content">
+
+        <div class="local-search-header clearfix">
+
+          <div class="local-search-input-wrapper">
+            <span class="search-icon">
+              <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
+            </span>
+            <input autocomplete="off" placeholder="搜索..." type="text" id="local-search-input">
+          </div>
+        </div>
+        <div id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io/js/ziploader.js"></script>
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    // monitor main search box;
+    var onPopupClose = function (e) {
+      $('.popup').fadeOut(300);
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $('.popup').fadeIn(300);
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+    // get search zip version
+    $.get('/searchVersion.json?t=' + (+new Date()), function (res) {
+      if (localStorage.getItem('searchVersion') !== res) {
+        localStorage.setItem('searchVersion', res);
+        initSearchJson();
+      }
+    });
+
+    function initSearchJson() {
+      initLoad(['/search.flv'], {
+        loadOptions: {
+          success: function (obj) {
+            localStorage.setItem('searchJson', obj['search.json'])
+          },
+          error: function (e) {
+            return console.log(e)
+          }
+        },
+        returnOptions: {
+          'json': TYPE_TEXT
+        },
+        mimeOptions: {
+          'json': 'application/json'
+        }
+      })
+    }
+    // search function;
+    var searchFunc = function (search_id, content_id) {
+      'use strict';
+      isfetched = true;
+      var datas = JSON.parse(localStorage.getItem('searchJson'));
+      // console.log(search_id)
+      var input = document.getElementById(search_id);
+      var resultContent = document.getElementById(content_id);
+      var inputEventFunction = function () {
+        var searchText = input.value.trim().toLowerCase();
+        var keywords = searchText.split(/[\s\-]+/);
+        if (keywords.length > 1) {
+          keywords.push(searchText);
+        }
+        var resultItems = [];
+        if (searchText.length > 0) {
+          // perform local searching
+          datas.forEach(function (data) {
+            var isMatch = false;
+            var hitCount = 0;
+            var searchTextCount = 0;
+            var title = data.title
+              ? data.title.trim()
+              : '';
+            var titleInLowerCase = title.toLowerCase();
+            var content = data.content
+              ? data.content.trim().replace(/<[^>]+>/g, "")
+              : '';
+            var contentInLowerCase = content.toLowerCase();
+            var articleUrl = decodeURIComponent(data.url);
+
+            var date = data.date;
+            var dateTime = date.replace(/T/, " ").replace(/.000Z/, "");
+            var imgUrl = data.header_img;
+            
+              imgUrl = 'https://cdn.jsdelivr.net/gh/loscoy/loscoy.github.io' + imgUrl;
+            
+
+
+            var indexOfTitle = [];
+            var indexOfContent = [];
+            // only match articles with not empty titles
+            keywords.forEach(function (keyword) {
+              function getIndexByWord(word, text, caseSensitive) {
+                var wordLen = word.length;
+                if (wordLen === 0) {
+                  return [];
+                }
+                var startPosition = 0,
+                  position = [],
+                  index = [];
+                if (!caseSensitive) {
+                  text = text.toLowerCase();
+                  word = word.toLowerCase();
+                }
+                while ((position = text.indexOf(word, startPosition)) > -1) {
+                  index.push({position: position, word: word});
+                  startPosition = position + wordLen;
+                }
+                return index;
+              }
+              indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+              indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+            });
+            if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+              isMatch = true;
+              hitCount = indexOfTitle.length + indexOfContent.length;
+            }
+            // show search results
+            if (isMatch) {
+              // sort index by position of keyword
+              [indexOfTitle, indexOfContent].forEach(function (index) {
+                index.sort(function (itemLeft, itemRight) {
+                  if (itemRight.position !== itemLeft.position) {
+                    return itemRight.position - itemLeft.position;
+                  } else {
+                    return itemLeft.word.length - itemRight.word.length;
+                  }
+                });
+              });
+              // merge hits into slices
+              function mergeIntoSlice(text, start, end, index) {
+                var item = index[index.length - 1];
+                var position = item.position;
+                var word = item.word;
+                var hits = [];
+                var searchTextCountInSlice = 0;
+                while (position + word.length <= end && index.length != 0) {
+                  if (word === searchText) {
+                    searchTextCountInSlice++;
+                  }
+                  hits.push({position: position, length: word.length});
+                  var wordEnd = position + word.length;
+                  // move to next position of hit
+                  index.pop();
+                  while (index.length != 0) {
+                    item = index[index.length - 1];
+                    position = item.position;
+                    word = item.word;
+                    if (wordEnd > position) {
+                      index.pop();
+                    } else {
+                      break;
+                    }
+                  }
+                }
+                searchTextCount += searchTextCountInSlice;
+                return {hits: hits, start: start, end: end, searchTextCount: searchTextCountInSlice};
+              }
+              var slicesOfTitle = [];
+              if (indexOfTitle.length != 0) {
+                slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+              }
+              var slicesOfContent = [];
+              while (indexOfContent.length != 0) {
+                var item = indexOfContent[indexOfContent.length - 1];
+                var position = item.position;
+                var word = item.word;
+                // cut out 100 characters
+                var start = position - 20;
+                var end = position + 80;
+                if (start < 0) {
+                  start = 0;
+                }
+                if (end < position + word.length) {
+                  end = position + word.length;
+                }
+                if (end > content.length) {
+                  end = content.length;
+                }
+                slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+              }
+              // sort slices in content by search text's count and hits' count
+              slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                  return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                  return sliceRight.hits.length - sliceLeft.hits.length;
+                } else {
+                  return sliceLeft.start - sliceRight.start;
+                }
+              });
+              // select top N slices in content
+              var upperBound = parseInt('1');
+              if (upperBound >= 0) {
+                slicesOfContent = slicesOfContent.slice(0, upperBound);
+              }
+              // highlight title and content
+              function highlightKeyword(text, slice) {
+                var result = '';
+                var prevEnd = slice.start;
+                slice.hits.forEach(function (hit) {
+                  result += text.substring(prevEnd, hit.position);
+                  var end = hit.position + hit.length;
+                  result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                  prevEnd = end;
+                });
+                result += text.substring(prevEnd, slice.end);
+                return result;
+              }
+              var resultItem = '';
+
+              // if (slicesOfTitle.length != 0) {   resultItem += "<li><a target='_blank' href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>"; } else {   resultItem += "<li><a target='_blank' href='" +
+              // articleUrl + "' class='search-result-title'>" + title + "</a>"; } slicesOfContent.forEach(function (slice) {   resultItem += "<a target='_blank' href='" + articleUrl + "'><p class=\"search-result\">" + highlightKeyword(content, slice) +
+              // "...</p></a>"; }); resultItem += "</li>";
+
+              if (slicesOfTitle.length != 0) {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              } else {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + title + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              }
+              slicesOfContent.forEach(function (slice) {
+                resultItem += "<p class=\"search-result-content\">" + highlightKeyword(content, slice) + "...</p>";
+              });
+              resultItem += "</div><div class='search-result-right'><img class='media-image' src='" + imgUrl + "' width='64px' height='48px'></img></div></a>";
+
+              resultItems.push({item: resultItem, searchTextCount: searchTextCount, hitCount: hitCount, id: resultItems.length});
+            }
+          })
+        };
+
+        if (keywords.length === 1 && keywords[0] === "") {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else if (resultItems.length === 0) {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else {
+          resultItems.sort(function (resultLeft, resultRight) {
+            if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+              return resultRight.searchTextCount - resultLeft.searchTextCount;
+            } else if (resultLeft.hitCount !== resultRight.hitCount) {
+              return resultRight.hitCount - resultLeft.hitCount;
+            } else {
+              return resultRight.id - resultLeft.id;
+            }
+          });
+          var searchResultList = '<div class=\"search-result-list\">';
+          resultItems.forEach(function (result) {
+            searchResultList += result.item;
+          })
+          searchResultList += "</div>";
+          resultContent.innerHTML = searchResultList;
+        }
+      }
+      if ('auto' === 'auto') {
+        input.addEventListener('input', inputEventFunction);
+      } else {
+        $('.search-icon').click(inputEventFunction);
+        input.addEventListener('keypress', function (event) {
+          if (event.keyCode === 13) {
+            inputEventFunction();
+          }
+        });
+      }
+      // remove loading animation
+      $('body').css('overflow', '');
+      proceedsearch();
+    }
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function (e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc('local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function (e) {
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 && $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+
+    document.addEventListener('mouseup', (e) => {
+      var _con = document.querySelector(".local-search-content");
+      if (_con) {
+        if (!_con.contains(e.target)) {
+          onPopupClose();
+        }
+      }
+    });
+  </script>
+
+
+		
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>

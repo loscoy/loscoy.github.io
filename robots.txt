@@ -1,0 +1,36 @@
+# robots.txt for loscoy.github.io (Hexo)
+User-agent: *
+Allow: /
+
+# Disallow Hexo specific directories
+Disallow: /css/
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /lib/
+Disallow: /vendors/
+Disallow: /fancybox/
+Disallow: /search/
+Disallow: /admin/
+Disallow: /archives/
+Disallow: /categories/
+Disallow: /tags/
+
+# Disallow source files and temporary files
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.txt$
+Disallow: /*.md$
+Disallow: /*.yml$
+Disallow: /*.yaml$
+
+# Allow specific Hexo generated pages
+Allow: /archives/*.html$
+Allow: /categories/*.html$
+Allow: /tags/*.html$
+
+# Sitemaps
+Sitemap: https://loscoy.github.io/sitemap.xml
+Sitemap: https://loscoy.github.io/baidusitemap.xml
+
+# Crawl-delay
+Crawl-delay: 5

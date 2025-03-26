@@ -3,6 +3,7 @@ User-agent: *
 Allow: /
 
 # Disallow Hexo specific directories
+Disallow: /search.flv
 Disallow: /css/
 Disallow: /js/
 Disallow: /fonts/

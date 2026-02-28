@@ -143,7 +143,28 @@
   <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
 
   <!-- ga & ba script hoook -->
-  <link rel="canonical" href="http://blog.loscoy.com/">
+  <link rel="canonical" href="https://blog.loscoy.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="Loscoy | Loscoy&#39;s Blog"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Loscoy | Loscoy&#39;s Blog"/>
+  <meta property="og:url" content="https://blog.loscoy.com/"/>
+  <meta property="og:description" content="It&#39;s an IT blog..."/>
+  
+  <meta property="og:image" content="https://blog.loscoy.com/img/header_img/newhome_bg.jpg"/>
+  
+
+  <!-- JSON-LD WebSite structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Loscoy | Loscoy&#39;s Blog",
+    "url": "https://blog.loscoy.com"
+  }
+  </script>
+
   <title>
     
       Loscoy | Loscoy&#39;s Blog
@@ -152,7 +173,7 @@
 
   <!-- Code Copy JS -->
   <script src="/js/code-copy.js"></script>
-<meta name="generator" content="Hexo 5.4.2"></head>
+<meta name="generator" content="Hexo 8.0.0"></head>
 
 
 <!-- hack iOS CSS :active style -->
@@ -265,6 +286,17 @@
           
           
           <li>
+            <a href="/archive/">
+              
+              归档
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
             <a href="/categories/">
               
               分类
@@ -279,17 +311,6 @@
             <a href="/tags/">
               
               标签
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/archive/">
-              
-              归档
               
               
             </a>
@@ -486,6 +507,91 @@
   <!-- top end -->
   
 
+  <a href="/cn/agent-skills-guide/">
+    <h2 class="post-title">
+      Agent Skills 编写规范
+    </h2>
+    <h3 class="post-subtitle">
+      综合 Vercel AI SDK、Anthropic Claude、OpenAI 三大生态系统最佳实践的 AI Agent Skills 编写指南
+    </h3>
+    <div class="post-content-preview">
+      
+本文综合 Vercel AI SDK、Anthropic Claude、OpenAI 三大生态系统的最佳实践，系统阐述 AI Agent Skills 的定义、结构设计、编写规范与质量保障体系。
+
+
+1. 什么是 Agent Skill
+Skill 是 Agent 可以调用的可重用功能模块，是将大语言模型的生成能力向自主执行过程延伸的核心构件。
+它并非简单的文本指令集，而是一个包含元数据、......
+    </div>
+  </a>
+  
+  <p class="post-meta" style="margin: 10px 0;">
+    Posted by Loscoy on
+    2026-02-28
+  </p>
+  <div class="tags">
+    
+    <a href="/tags/#AI" title="AI">AI</a>
+    
+    <a href="/tags/#Agent" title="Agent">Agent</a>
+    
+    <a href="/tags/#Skills" title="Skills">Skills</a>
+    
+    <a href="/tags/#LLM" title="LLM">LLM</a>
+    
+  </div>
+  
+
+</div>
+<hr>
+
+<div class="post-preview">
+  
+  <!-- top start (article top hot config) -->
+  
+  <!-- top end -->
+  
+
+  <a href="/en/agent-skills-guide/">
+    <h2 class="post-title">
+      Agent Skills Writing Guide
+    </h2>
+    <h3 class="post-subtitle">
+      A comprehensive guide to writing AI Agent Skills based on best practices from Vercel AI SDK, Anthropic Claude, and OpenAI ecosystems
+    </h3>
+    <div class="post-content-preview">
+      
+This guide synthesizes best practices from the Vercel AI SDK, Anthropic Claude, and OpenAI ecosystems to systematically explain the definition, structural design, writing standards, and quality as......
+    </div>
+  </a>
+  
+  <p class="post-meta" style="margin: 10px 0;">
+    Posted by Loscoy on
+    2026-02-28
+  </p>
+  <div class="tags">
+    
+    <a href="/tags/#AI" title="AI">AI</a>
+    
+    <a href="/tags/#Agent" title="Agent">Agent</a>
+    
+    <a href="/tags/#Skills" title="Skills">Skills</a>
+    
+    <a href="/tags/#LLM" title="LLM">LLM</a>
+    
+  </div>
+  
+
+</div>
+<hr>
+
+<div class="post-preview">
+  
+  <!-- top start (article top hot config) -->
+  
+  <!-- top end -->
+  
+
   <a href="/cn/vaultwarden-backup-to-gdrive/">
     <h2 class="post-title">
       使用 Restic 和 rclone 将 Vaultwarden 数据备份到 Google Drive
@@ -495,7 +601,8 @@
     </h3>
     <div class="post-content-preview">
       Vaultwarden 是一个轻量级的密码管理器，我最近开始用它来管理我的密码和敏感数据。为了确保数据安全，我决定定期将 Vaultwarden 的数据备份到 Google Drive，并使用 Restic 进行增量备份，结合 rclone 连接云存储。这篇博客将分享我的完整备份流程，从配置到自动化，再到数据恢复，全部基于我的实际操作经验。希望能帮到你！
-前提条件在开始之前，确保你已经准备好......
+前提条件
+在开始之前，确保你已经准备......
     </div>
   </a>
   
@@ -505,7 +612,42 @@
   </p>
   <div class="tags">
     
-    <a href="/tags/#vAaultwarden" title="vAaultwarden">vAaultwarden</a>
+    <a href="/tags/#Vaultwarden" title="Vaultwarden">Vaultwarden</a>
+    
+    <a href="/tags/#bitwarden" title="bitwarden">bitwarden</a>
+    
+  </div>
+  
+
+</div>
+<hr>
+
+<div class="post-preview">
+  
+  <!-- top start (article top hot config) -->
+  
+  <!-- top end -->
+  
+
+  <a href="/en/vaultwarden-backup-to-gdrive/">
+    <h2 class="post-title">
+      Backup Vaultwarden Data to Google Drive with Restic and rclone
+    </h2>
+    <h3 class="post-subtitle">
+      
+    </h3>
+    <div class="post-content-preview">
+      Vaultwarden is a lightweight password manager that I recently started using to manage my passwords and sensitive data. To ensure data safety, I decided to regularly back up Vaultwarden data to Goog......
+    </div>
+  </a>
+  
+  <p class="post-meta" style="margin: 10px 0;">
+    Posted by Loscoy on
+    2025-06-07
+  </p>
+  <div class="tags">
+    
+    <a href="/tags/#Vaultwarden" title="Vaultwarden">Vaultwarden</a>
     
     <a href="/tags/#bitwarden" title="bitwarden">bitwarden</a>
     
@@ -647,6 +789,22 @@
   <div class="tags">
     
     
+    <a href="/tags/#AI" title="AI" rel="2">AI</a>
+    
+    
+    
+    <a href="/tags/#Agent" title="Agent" rel="2">Agent</a>
+    
+    
+    
+    <a href="/tags/#Skills" title="Skills" rel="2">Skills</a>
+    
+    
+    
+    <a href="/tags/#LLM" title="LLM" rel="2">LLM</a>
+    
+    
+    
     <a href="/tags/#Flutter" title="Flutter" rel="2">Flutter</a>
     
     
@@ -671,6 +829,14 @@
     
     
     
+    <a href="/tags/#Vaultwarden" title="Vaultwarden" rel="2">Vaultwarden</a>
+    
+    
+    
+    <a href="/tags/#bitwarden" title="bitwarden" rel="2">bitwarden</a>
+    
+    
+    
     <a href="/tags/#Security" title="Security" rel="1">Security</a>
     
     
@@ -684,14 +850,6 @@
     
     
     <a href="/tags/#Signal Protocol" title="Signal Protocol" rel="1">Signal Protocol</a>
-    
-    
-    
-    <a href="/tags/#vAaultwarden" title="vAaultwarden" rel="1">vAaultwarden</a>
-    
-    
-    
-    <a href="/tags/#bitwarden" title="bitwarden" rel="1">bitwarden</a>
     
     
   </div>
@@ -743,16 +901,24 @@
 <div class="widget">
   <ul>
     
+    <a href="cn/agent-skills-guide/">
+      <li>Agent Skills 编写规范</li>
+    </a>
+    
+    <a href="en/agent-skills-guide/">
+      <li>Agent Skills Writing Guide</li>
+    </a>
+    
     <a href="cn/vaultwarden-backup-to-gdrive/">
       <li>使用 Restic 和 rclone 将 Vaultwarden 数据备份到 Google Drive</li>
     </a>
     
-    <a href="cn/chat_e2ee/">
-      <li>为聊天应用添加端到端加密 (E2EE)</li>
+    <a href="en/vaultwarden-backup-to-gdrive/">
+      <li>Backup Vaultwarden Data to Google Drive with Restic and rclone</li>
     </a>
     
-    <a href="en/chat_e2ee/">
-      <li>Implementing End-to-End Encryption in Chat Applications</li>
+    <a href="cn/chat_e2ee/">
+      <li>为聊天应用添加端到端加密 (E2EE)</li>
     </a>
     
   </ul>
@@ -777,7 +943,7 @@
 
 <h5><a href="/archives/">archives</a></h5>
 <div class="widget">
-  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="archives/2025/06/">June 2025</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="archives/2025/03/">March 2025</a><span class="archive-list-count">2</span></li></ul>
+  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="archives/2026/02/">February 2026</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="archives/2025/06/">June 2025</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="archives/2025/03/">March 2025</a><span class="archive-list-count">2</span></li></ul>
 </div>
 
 
@@ -789,8 +955,24 @@
 <div class="widget">
   <ul>
     
+    <a href="/categories/#AI">
+      <li>AI</li>
+    </a>
+    
     <a href="/categories/#技术教程">
       <li>技术教程</li>
+    </a>
+    
+    <a href="/categories/#Agent Development">
+      <li>Agent Development</li>
+    </a>
+    
+    <a href="/categories/#Agent 开发">
+      <li>Agent 开发</li>
+    </a>
+    
+    <a href="/categories/#Tutorial">
+      <li>Tutorial</li>
     </a>
     
     <a href="/categories/#Technical Tutorials">
@@ -799,6 +981,14 @@
     
     <a href="/categories/#应用开发">
       <li>应用开发</li>
+    </a>
+    
+    <a href="/categories/#安全实践">
+      <li>安全实践</li>
+    </a>
+    
+    <a href="/categories/#Security">
+      <li>Security</li>
     </a>
     
     <a href="/categories/#Application Development">
@@ -811,10 +1001,6 @@
     
     <a href="/categories/#Security Practices">
       <li>Security Practices</li>
-    </a>
-    
-    <a href="/categories/#安全实践">
-      <li>安全实践</li>
     </a>
     
   </ul>
@@ -858,7 +1044,7 @@
         <p class="copyright text-muted">
           Copyright &copy;
           Loscoy
-          2025
+          2026
         </p>
       </div>
     </div>
@@ -974,7 +1160,7 @@ https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
 <!-- <script> async ("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function () { hljs.initHighlightingOnLoad(); }) </script> <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
 
 <!-- jquery.tagcloud.js -->
-<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("http://blog.loscoy.com/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
+<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("https://blog.loscoy.com/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
 start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
 
 

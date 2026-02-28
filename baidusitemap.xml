@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://blog.loscoy.com/cn/vaultwarden-backup-to-gdrive/</loc>
-    <lastmod>2025-06-06</lastmod>
+    <loc>https://blog.loscoy.com/cn/agent-skills-guide/</loc>
+    <lastmod>2026-02-28</lastmod>
   </url>
   <url>
-    <loc>http://blog.loscoy.com/cn/chat_e2ee/</loc>
+    <loc>https://blog.loscoy.com/en/agent-skills-guide/</loc>
+    <lastmod>2026-02-28</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.loscoy.com/cn/vaultwarden-backup-to-gdrive/</loc>
+    <lastmod>2025-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.loscoy.com/en/vaultwarden-backup-to-gdrive/</loc>
+    <lastmod>2025-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.loscoy.com/cn/chat_e2ee/</loc>
     <lastmod>2025-03-20</lastmod>
   </url>
   <url>
-    <loc>http://blog.loscoy.com/en/chat_e2ee/</loc>
+    <loc>https://blog.loscoy.com/en/chat_e2ee/</loc>
     <lastmod>2025-03-20</lastmod>
   </url>
 </urlset> 

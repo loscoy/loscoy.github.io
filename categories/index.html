@@ -492,29 +492,31 @@
       <!-- 标签云 -->
       <div id='tag_cloud' class="tags">
         
-        <a href="#AI" title="AI" rel="2">AI</a>
+        <a href="#AI" title="AI" rel="3">AI</a>
         
         <a href="#技术教程" title="技术教程" rel="2">技术教程</a>
         
-        <a href="#Agent Development" title="Agent Development" rel="1">Agent Development</a>
-        
         <a href="#Agent 开发" title="Agent 开发" rel="1">Agent 开发</a>
         
-        <a href="#Tutorial" title="Tutorial" rel="1">Tutorial</a>
+        <a href="#Agent Development" title="Agent Development" rel="1">Agent Development</a>
         
         <a href="#Technical Tutorials" title="Technical Tutorials" rel="1">Technical Tutorials</a>
         
         <a href="#应用开发" title="应用开发" rel="1">应用开发</a>
         
-        <a href="#安全实践" title="安全实践" rel="1">安全实践</a>
+        <a href="#实战记录" title="实战记录" rel="1">实战记录</a>
         
-        <a href="#Security" title="Security" rel="1">Security</a>
+        <a href="#安全实践" title="安全实践" rel="1">安全实践</a>
         
         <a href="#Application Development" title="Application Development" rel="1">Application Development</a>
         
         <a href="#安全实践" title="安全实践" rel="1">安全实践</a>
         
         <a href="#Security Practices" title="Security Practices" rel="1">Security Practices</a>
+        
+        <a href="#Tutorial" title="Tutorial" rel="1">Tutorial</a>
+        
+        <a href="#Security" title="Security" rel="1">Security</a>
         
       </div>
 
@@ -541,6 +543,24 @@
             <h3 class="post-subtitle">
               综合 Vercel AI SDK、Anthropic Claude、OpenAI 三大生态系统最佳实践的 AI Agent Skills 编写指南
             </h3>
+            
+          </a>
+          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+        <hr>
+        
+        <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+        <div class="post-preview">
+          <a href="/cn/graphrag-obsidian-openclaw/">
+            <h2 class="post-title">
+              把 Obsidian 作为 OpenClaw Agent 的外部 Context
+              
+              -- cn
+              
+            </h2>
             
           </a>
           <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
@@ -613,33 +633,6 @@
       </div>
       
       <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="Agent Development">
-          <span class="tag-text">Agent Development</span>
-        </span>
-        
-        <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-        <div class="post-preview">
-          <a href="/en/agent-skills-guide/">
-            <h2 class="post-title">
-              Agent Skills Writing Guide
-              
-            </h2>
-            
-            <h3 class="post-subtitle">
-              A comprehensive guide to writing AI Agent Skills based on best practices from Vercel AI SDK, Anthropic Claude, and OpenAI ecosystems
-            </h3>
-            
-          </a>
-          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </div>
-        <hr>
-        
-      </div>
-      
-      <div class="one-tag-list">
         <span class="fa fa-tag listing-seperator" id="Agent 开发">
           <span class="tag-text">Agent 开发</span>
         </span>
@@ -669,8 +662,8 @@
       </div>
       
       <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="Tutorial">
-          <span class="tag-text">Tutorial</span>
+        <span class="fa fa-tag listing-seperator" id="Agent Development">
+          <span class="tag-text">Agent Development</span>
         </span>
         
         <!-- <li class="listing-item">
@@ -678,11 +671,15 @@
                   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
                   </li> -->
         <div class="post-preview">
-          <a href="/en/vaultwarden-backup-to-gdrive/">
+          <a href="/en/agent-skills-guide/">
             <h2 class="post-title">
-              Backup Vaultwarden Data to Google Drive with Restic and rclone
+              Agent Skills Writing Guide
               
             </h2>
+            
+            <h3 class="post-subtitle">
+              A comprehensive guide to writing AI Agent Skills based on best practices from Vercel AI SDK, Anthropic Claude, and OpenAI ecosystems
+            </h3>
             
           </a>
           <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
@@ -740,6 +737,31 @@
       </div>
       
       <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="实战记录">
+          <span class="tag-text">实战记录</span>
+        </span>
+        
+        <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+        <div class="post-preview">
+          <a href="/cn/graphrag-obsidian-openclaw/">
+            <h2 class="post-title">
+              把 Obsidian 作为 OpenClaw Agent 的外部 Context
+              
+              -- cn
+              
+            </h2>
+            
+          </a>
+          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+        <hr>
+        
+      </div>
+      
+      <div class="one-tag-list">
         <span class="fa fa-tag listing-seperator" id="安全实践">
           <span class="tag-text">安全实践</span>
         </span>
@@ -754,29 +776,6 @@
               使用 Restic 和 rclone 将 Vaultwarden 数据备份到 Google Drive
               
               -- cn
-              
-            </h2>
-            
-          </a>
-          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </div>
-        <hr>
-        
-      </div>
-      
-      <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="Security">
-          <span class="tag-text">Security</span>
-        </span>
-        
-        <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-        <div class="post-preview">
-          <a href="/en/vaultwarden-backup-to-gdrive/">
-            <h2 class="post-title">
-              Backup Vaultwarden Data to Google Drive with Restic and rclone
               
             </h2>
             
@@ -848,6 +847,52 @@
           <a href="/en/chat_e2ee/">
             <h2 class="post-title">
               Implementing End-to-End Encryption in Chat Applications
+              
+            </h2>
+            
+          </a>
+          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+        <hr>
+        
+      </div>
+      
+      <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="Tutorial">
+          <span class="tag-text">Tutorial</span>
+        </span>
+        
+        <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+        <div class="post-preview">
+          <a href="/en/vaultwarden-backup-to-gdrive/">
+            <h2 class="post-title">
+              Backup Vaultwarden Data to Google Drive with Restic and rclone
+              
+            </h2>
+            
+          </a>
+          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+        <hr>
+        
+      </div>
+      
+      <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="Security">
+          <span class="tag-text">Security</span>
+        </span>
+        
+        <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+        <div class="post-preview">
+          <a href="/en/vaultwarden-backup-to-gdrive/">
+            <h2 class="post-title">
+              Backup Vaultwarden Data to Google Drive with Restic and rclone
               
             </h2>
             
